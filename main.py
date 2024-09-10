@@ -4,6 +4,7 @@ wdi = pd.read_csv(
     "https://media.githubusercontent.com/media/nickeubank/MIDS_Data/master/World_Development_Indicators/wdi_small_tidy_2015.csv"
 )
 
+# the above operation uses a pandas function read_csv() to load a comma-separated-value function and assign it to a dataframe "wdi"
 
 # Plot
 import seaborn.objects as so
